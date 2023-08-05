@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  
+.container1{
+  text-align: right;
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 30px;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.navigation li:first-child {
+  margin-left: 0;
+}
+
+.navigation a {
+   margin-right: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar{
+    background-color: rgb(223, 218, 218);
+    width: 434px;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+   /* background-color: yellowgreen; */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+
+}
+
+.about-us{
+    align-items: center;
+    color: white;
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: black;
+}
+.pic{
+  height: auto;
+  width:  400px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.text h5{
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+span{
+  color: #4070f4;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
+
+.hello{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 65px;
+}
+.name{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Fira Sans', sans-serif;
+}
